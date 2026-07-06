@@ -1,0 +1,112 @@
+{
+  "a11y": {
+    "skipToContent": "Saltar al contenido principal",
+    "mainNav": "Navegación principal",
+    "toggleMenu": "Alternar menú de navegación",
+    "closeDialog": "Cerrar diálogo",
+    "loading": "Cargando",
+    "toggleDark": "Cambiar a modo oscuro",
+    "toggleLight": "Cambiar a modo claro"
+  },
+  "nav": {
+    "home": "Inicio",
+    "apply": "Solicitar Ahora",
+    "about": "Acerca de",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "title": "Tu Camino Hacia la Propiedad Comienza Aquí",
+    "subtitle": "Pre-aprobación rápida, tasas competitivas y oficiales de préstamo dedicados que te guían en cada paso del financiamiento inmobiliario.",
+    "cta": "Inicia Tu Solicitud",
+    "learnMore": "Más Información"
+  },
+  "features": {
+    "title": "Por Qué Elegir Realty Creditors",
+    "fast": {
+      "title": "Pre-Aprobación Rápida",
+      "description": "Obtén pre-aprobación en tan solo 24 horas. Nuestro proceso simplificado significa menos espera y más búsqueda de vivienda."
+    },
+    "rates": {
+      "title": "Tasas Competitivas",
+      "description": "Accede a tasas de grado institucional típicamente reservadas para grandes prestatarios. Te pasamos los ahorros."
+    },
+    "support": {
+      "title": "Soporte Dedicado",
+      "description": "Tu oficial de préstamo personal está disponible por teléfono, correo electrónico o chat durante todo el proceso."
+    }
+  },
+  "form": {
+    "title": "Inicia Tu Solicitud",
+    "subtitle": "Completa el formulario y un oficial de préstamo te contactará dentro de un día hábil.",
+    "progress": "Paso {current} de {total}",
+    "previous": "Anterior",
+    "next": "Siguiente",
+    "submit": "Enviar Solicitud",
+    "submitting": "Enviando...",
+    "step1": {
+      "title": "Detalles de la Propiedad",
+      "description": "Cuéntanos sobre la propiedad que te interesa.",
+      "propertyType": "Tipo de Propiedad",
+      "propertyTypePlaceholder": "Unifamiliar, Condominio, Multi-Unidad...",
+      "propertyValue": "Valor Estimado de la Propiedad",
+      "propertyValuePlaceholder": "$250,000",
+      "loanAmount": "Monto del Préstamo Deseado",
+      "loanAmountPlaceholder": "$200,000"
+    },
+    "step2": {
+      "title": "Información Personal",
+      "description": "Necesitamos saber quién eres.",
+      "name": "Nombre Completo",
+      "namePlaceholder": "Juan Pérez",
+      "email": "Correo Electrónico",
+      "emailPlaceholder": "tu.correo",
+      "phone": "Número de Teléfono",
+      "phonePlaceholder": "(555) 123-4567"
+    },
+    "step3": {
+      "title": "Empleo e Ingresos",
+      "description": "Ayúdanos a entender tu situación financiera.",
+      "employmentStatus": "Estado Laboral",
+      "employmentPlaceholder": "Tiempo completo, Autónomo, Jubilado...",
+      "annualIncome": "Ingreso Anual del Hogar",
+      "annualIncomePlaceholder": "$75,000"
+    },
+    "step4": {
+      "title": "Revisar",
+      "description": "Por favor revisa tu información antes de enviar.",
+      "propertyType": "Tipo de Propiedad",
+      "propertyValue": "Valor de la Propiedad",
+      "loanAmount": "Monto del Préstamo",
+      "name": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Teléfono",
+      "employment": "Empleo",
+      "income": "Ingreso Anual"
+    },
+    "step5": {
+      "title": "Confirmación",
+      "description": "¡Tu solicitud ha sido enviada!",
+      "success": "Solicitud Enviada Exitosamente",
+      "successMessage": "Gracias por tu solicitud. Un oficial de préstamo revisará tu información y te contactará dentro de un día hábil.",
+      "referenceNumber": "Número de Referencia",
+      "newApplication": "Iniciar Nueva Solicitud"
+    },
+    "validation": {
+      "required": "Este campo es obligatorio",
+      "invalidEmail": "Ingresa un correo electrónico válido",
+      "invalidPhone": "Ingresa un número de teléfono válido"
+    }
+  },
+  "footer": {
+    "tagline": "Soluciones profesionales de financiamiento inmobiliario desde 2005.",
+    "copyright": "© {year} Realty Creditors. Todos los derechos reservados.",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "contact": "Contáctanos"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "error": "Ocurrió un error",
+    "close": "Cerrar"
+  }
+}

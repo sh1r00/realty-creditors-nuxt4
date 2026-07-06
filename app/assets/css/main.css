@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    @apply bg-white text-primary-950 dark:bg-primary-950 dark:text-white font-sans;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+
+  /* Focus visible — accessible keyboard navigation */
+  :focus-visible {
+    @apply outline-2 outline-offset-2 outline-accent-600;
+    outline-style: solid;
+  }
+
+  /* Skip to content — sr-only until focused */
+  .skip-to-content {
+    @apply sr-only;
+  }
+  .skip-to-content:focus {
+    @apply not-sr-only absolute top-4 left-4 z-[100] px-4 py-2 bg-accent-600 text-primary-950 rounded-lg font-semibold;
+  }
+}
+
+@layer components {
+  /* Form styles */
+  .form-input {
+    @apply w-full px-4 py-3 rounded-lg border border-surface-dark dark:border-primary-700
+           bg-white dark:bg-primary-900 text-primary-950 dark:text-white
+           placeholder:text-primary-300 dark:placeholder:text-primary-500
+           transition-colors duration-200
+           focus:border-accent-500 focus:ring-2 focus:ring-accent-500/30;
+  }
+
+  .form-input[aria-invalid="true"] {
+    @apply border-red-500 focus:border-red-500 focus:ring-red-500/30;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-primary-700 dark:text-primary-200 mb-1.5;
+  }
+
+  .form-error {
+    @apply text-sm text-red-600 dark:text-red-400 mt-1;
+    role: alert;
+  }
+}

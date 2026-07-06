@@ -1,0 +1,112 @@
+{
+  "a11y": {
+    "skipToContent": "Skip to main content",
+    "mainNav": "Main navigation",
+    "toggleMenu": "Toggle navigation menu",
+    "closeDialog": "Close dialog",
+    "loading": "Loading",
+    "toggleDark": "Switch to dark mode",
+    "toggleLight": "Switch to light mode"
+  },
+  "nav": {
+    "home": "Home",
+    "apply": "Apply Now",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Your Path to Property Ownership Starts Here",
+    "subtitle": "Fast pre-approval, competitive rates, and dedicated loan officers who guide you through every step of real estate financing.",
+    "cta": "Start Your Application",
+    "learnMore": "Learn More"
+  },
+  "features": {
+    "title": "Why Choose Realty Creditors",
+    "fast": {
+      "title": "Fast Pre-Approval",
+      "description": "Get pre-approved in as little as 24 hours. Our streamlined process means less waiting and more house hunting."
+    },
+    "rates": {
+      "title": "Competitive Rates",
+      "description": "Access institutional-grade rates typically reserved for large borrowers. We pass the savings to you."
+    },
+    "support": {
+      "title": "Dedicated Support",
+      "description": "Your personal loan officer is available by phone, email, or chat throughout the entire process."
+    }
+  },
+  "form": {
+    "title": "Start Your Application",
+    "subtitle": "Fill out the form below and a loan officer will contact you within one business day.",
+    "progress": "Step {current} of {total}",
+    "previous": "Previous",
+    "next": "Next",
+    "submit": "Submit Application",
+    "submitting": "Submitting...",
+    "step1": {
+      "title": "Property Details",
+      "description": "Tell us about the property you're interested in.",
+      "propertyType": "Property Type",
+      "propertyTypePlaceholder": "Single Family, Condo, Multi-Unit...",
+      "propertyValue": "Estimated Property Value",
+      "propertyValuePlaceholder": "$250,000",
+      "loanAmount": "Desired Loan Amount",
+      "loanAmountPlaceholder": "$200,000"
+    },
+    "step2": {
+      "title": "Personal Information",
+      "description": "We need to know who you are.",
+      "name": "Full Name",
+      "namePlaceholder": "John Smith",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email",
+      "phone": "Phone Number",
+      "phonePlaceholder": "(555) 123-4567"
+    },
+    "step3": {
+      "title": "Employment & Income",
+      "description": "Help us understand your financial situation.",
+      "employmentStatus": "Employment Status",
+      "employmentPlaceholder": "Full-time, Self-employed, Retired...",
+      "annualIncome": "Annual Household Income",
+      "annualIncomePlaceholder": "$75,000"
+    },
+    "step4": {
+      "title": "Review",
+      "description": "Please review your information before submitting.",
+      "propertyType": "Property Type",
+      "propertyValue": "Property Value",
+      "loanAmount": "Loan Amount",
+      "name": "Full Name",
+      "email": "Email",
+      "phone": "Phone",
+      "employment": "Employment",
+      "income": "Annual Income"
+    },
+    "step5": {
+      "title": "Confirmation",
+      "description": "Your application has been submitted!",
+      "success": "Application Submitted Successfully",
+      "successMessage": "Thank you for your application. A loan officer will review your information and contact you within one business day.",
+      "referenceNumber": "Reference Number",
+      "newApplication": "Start New Application"
+    },
+    "validation": {
+      "required": "This field is required",
+      "invalidEmail": "Please enter a valid email address",
+      "invalidPhone": "Please enter a valid phone number"
+    }
+  },
+  "footer": {
+    "tagline": "Professional real estate financing solutions since 2005.",
+    "copyright": "© {year} Realty Creditors. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "contact": "Contact Us"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "close": "Close"
+  }
+}

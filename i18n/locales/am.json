@@ -1,0 +1,112 @@
+{
+  "a11y": {
+    "skipToContent": "ወደ ዋናው ይዘት ዝለል",
+    "mainNav": "ዋና ዳሰሳ",
+    "toggleMenu": "የዳሰሳ ሜኑ ቀያይር",
+    "closeDialog": "ንግግር ዝጋ",
+    "loading": "በመጫን ላይ",
+    "toggleDark": "ወደ ጨለማ ሞድ ቀይር",
+    "toggleLight": "ወደ ብርሃን ሞድ ቀይር"
+  },
+  "nav": {
+    "home": "መነሻ",
+    "apply": "አሁን ያመልክቱ",
+    "about": "ስለ እኛ",
+    "contact": "ያግኙን"
+  },
+  "hero": {
+    "title": "ወደ ንብረት ባለቤትነት መንገድዎ እዚህ ይጀምራል",
+    "subtitle": "ፈጣን ቅድመ-ማጽደቅ፣ ተወዳዳሪ ወለድ እና በእያንዳንዱ የሪል እስቴት ፋይናንስ ደረጃ የሚመሩዎት ቁርጠኛ የብድር ኃላፊዎች።",
+    "cta": "ማመልከቻዎን ይጀምሩ",
+    "learnMore": "ተጨማሪ ይወቁ"
+  },
+  "features": {
+    "title": "ለምን Realty Creditors ይምረጡ",
+    "fast": {
+      "title": "ፈጣን ቅድመ-ማጽደቅ",
+      "description": "በ24 ሰዓታት ውስጥ ቅድመ-ማጽደቅ ያግኙ። ቀልጣፋ ሂደታችን ያነሰ ጥበቃ እና ተጨማሪ የቤት ፍለጋ ማለት ነው።"
+    },
+    "rates": {
+      "title": "ተወዳዳሪ ወለድ",
+      "description": "በተለምዶ ለትላልቅ ተበዳሪዎች ብቻ የተጠበቁ ተቋማዊ ደረጃ ወለዶችን ያግኙ። ቁጠባውን ለእርስዎ እናስተላልፋለን።"
+    },
+    "support": {
+      "title": "ቁርጠኛ ድጋፍ",
+      "description": "የግል የብድር ኃላፊዎ በጠቅላላው ሂደት በስልክ፣ በኢሜይል ወይም በውይይት ይገኛል።"
+    }
+  },
+  "form": {
+    "title": "ማመልከቻዎን ይጀምሩ",
+    "subtitle": "ከታች ያለውን ቅጽ ይሙሉ እና የብድር ኃላፊ በአንድ የስራ ቀን ውስጥ ያገኙዎታል።",
+    "progress": "ደረጃ {current} ከ {total}",
+    "previous": "ቀዳሚ",
+    "next": "ቀጣይ",
+    "submit": "ማመልከቻ ያስገቡ",
+    "submitting": "በማስገባት ላይ...",
+    "step1": {
+      "title": "የንብረት ዝርዝሮች",
+      "description": "ስለሚፈልጉት ንብረት ይንገሩን።",
+      "propertyType": "የንብረት አይነት",
+      "propertyTypePlaceholder": "ነጠላ ቤተሰብ፣ ኮንዶሚኒየም፣ ባለብዙ ክፍል...",
+      "propertyValue": "የተገመተ የንብረት ዋጋ",
+      "propertyValuePlaceholder": "$250,000",
+      "loanAmount": "የሚፈለግ የብድር መጠን",
+      "loanAmountPlaceholder": "$200,000"
+    },
+    "step2": {
+      "title": "የግል መረጃ",
+      "description": "እርስዎ ማን እንደሆኑ ማወቅ አለብን።",
+      "name": "ሙሉ ስም",
+      "namePlaceholder": "ዮሐንስ አለሙ",
+      "email": "የኢሜይል አድራሻ",
+      "emailPlaceholder": "yohannes.alemu",
+      "phone": "ስልክ ቁጥር",
+      "phonePlaceholder": "(555) 123-4567"
+    },
+    "step3": {
+      "title": "ሥራ እና ገቢ",
+      "description": "የፋይናንስ ሁኔታዎን እንድንረዳ ያግዙን።",
+      "employmentStatus": "የሥራ ሁኔታ",
+      "employmentPlaceholder": "የሙሉ ጊዜ፣ የራስ ሥራ፣ ጡረተኛ...",
+      "annualIncome": "ዓመታዊ የቤተሰብ ገቢ",
+      "annualIncomePlaceholder": "$75,000"
+    },
+    "step4": {
+      "title": "ክለሳ",
+      "description": "እባክዎ ከማስገባትዎ በፊት መረጃዎን ይከልሱ።",
+      "propertyType": "የንብረት አይነት",
+      "propertyValue": "የንብረት ዋጋ",
+      "loanAmount": "የብድር መጠን",
+      "name": "ሙሉ ስም",
+      "email": "ኢሜይል",
+      "phone": "ስልክ",
+      "employment": "ሥራ",
+      "income": "ዓመታዊ ገቢ"
+    },
+    "step5": {
+      "title": "ማረጋገጫ",
+      "description": "ማመልከቻዎ ተልኳል!",
+      "success": "ማመልከቻ በተሳካ ሁኔታ ተልኳል",
+      "successMessage": "ለማመልከቻዎ እናመሰግናለን። የብድር ኃላፊ መረጃዎን ከገመገመ በኋላ በአንድ የስራ ቀን ውስጥ ያገኙዎታል።",
+      "referenceNumber": "የማመሳከሪያ ቁጥር",
+      "newApplication": "አዲስ ማመልከቻ ይጀምሩ"
+    },
+    "validation": {
+      "required": "ይህ መስክ ያስፈልጋል",
+      "invalidEmail": "እባክዎ ትክክለኛ የኢሜይል አድራሻ ያስገቡ",
+      "invalidPhone": "እባክዎ ትክክለኛ የስልክ ቁጥር ያስገቡ"
+    }
+  },
+  "footer": {
+    "tagline": "ከ2005 ጀምሮ ሙያዊ የሪል እስቴት ፋይናንስ መፍትሔዎች።",
+    "copyright": "© {year} Realty Creditors። መብቱ በህግ የተጠበቀ ነው።",
+    "privacy": "የግላዊነት ፖሊሲ",
+    "terms": "የአገልግሎት ውል",
+    "contact": "ያግኙን"
+  },
+  "common": {
+    "loading": "በመጫን ላይ...",
+    "error": "ስህተት ተከስቷል",
+    "close": "ዝጋ"
+  }
+}
