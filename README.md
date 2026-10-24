@@ -52,6 +52,18 @@ Deploy .output/public to Netlify via API zip upload.
 - PWA configured with service worker for offline access
 - i18n supports 3 locales: English, Espanyol, Amharic
 
+## Pitfalls & Fixes
+
+See [DOCUMENTATION.md](./DOCUMENTATION.md) for the full build/deployment guide and detailed pitfalls & fixes. Key items:
+
+- nuxt-security@2.6.0 requires Node ≥ 24 (`NODE_VERSION = "24"` in `netlify.toml`)
+- esbuild/vite peer conflict → `npm install --legacy-peer-deps`
+- i18n v10: `detectBrowserLanguage: false` + `const localePath = useLocalePath()`
+- `$t()` banned in templates → `const { t } = useI18n()`
+- Component auto-import `pathPrefix: false` (else `OrganismsOHeroSection` → blank screen)
+- PWA precache/fallback can blank-screen non-precached routes
+- i18n `prefix` strategy → `/` must 302 to `/en/` (not `/* → /index.html`)
+
 ---
 
 *Made with ❤️ by shiro — rasisg@gmail.com — github.com/sh1r00*
