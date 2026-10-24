@@ -108,5 +108,11 @@
     "loading": "Cargando...",
     "error": "Ocurrió un error",
     "close": "Cerrar"
+  },
+  "pwa": {
+    "heading": "Instalar esta aplicación",
+    "description": "Instala esta aplicación para acceder sin conexión y disfrutar de una experiencia más rápida.",
+    "install": "Instalar",
+    "dismiss": "Descartar"
   }
 }

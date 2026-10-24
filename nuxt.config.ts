@@ -7,7 +7,6 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      htmlAttrs: { lang: 'en' },
       title: 'Realty Creditors — Real Estate Financing Solutions',
       meta: [
         { charset: 'utf-8' },
@@ -35,23 +34,20 @@ export default defineNuxtConfig({
     baseUrl: process.env.APP_BASE_URL || 'http://localhost:3000',
     strategy: 'prefix',
     defaultLocale: 'en',
+    lazy: true,
     locales: [
-      { code: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
-      { code: 'es', iso: 'es-ES', name: 'Español', file: 'es.json' },
-      { code: 'am', iso: 'am-ET', name: 'አማርኛ', file: 'am.json' },
+      { code: 'en', language: 'en', iso: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'es', language: 'es', iso: 'es-ES', name: 'Español', file: 'es.json' },
+      { code: 'am', language: 'am', iso: 'am-ET', name: 'አማርኛ', file: 'am.json' },
     ],
     langDir: 'locales/',
-    detectBrowserLanguage: {
-      useCookie: true,
-      cookieKey: 'realty_locale',
-      alwaysRedirect: false,
-    },
+    detectBrowserLanguage: false,
   },
 
   pwa: {
     registerType: 'autoUpdate',
     devOptions: { enabled: false },
-    manifest: { name: 'App', short_name: 'App', theme_color: '#000000', background_color: '#ffffff', display: 'standalone' },
+    manifest: { name: 'Realty Creditors', short_name: 'Realty Creditors', theme_color: '#0f172a', background_color: '#ffffff', display: 'standalone' },
     workbox: { globPatterns: ['**/*.{js,css,html,png,svg,ico,woff2,json}'], navigateFallback: '/', cleanupOutdatedCaches: true, skipWaiting: true, clientsClaim: true,
       runtimeCaching: [
         { urlPattern: /\\.json$/, handler: 'StaleWhileRevalidate', options: { cacheName: 'i18n' } },
@@ -65,7 +61,7 @@ export default defineNuxtConfig({
     headers: process.env.NODE_ENV === "development" ? false : {
       contentSecurityPolicy: {
         'default-src': ["'self'"],
-        'script-src': ["'self'", "'unsafe-inline'"],
+        'script-src': ["'self'", "'strict-dynamic'", "'nonce-{{nonce}}'"],
         'style-src': ["'self'", "'unsafe-inline'", 'https://fonts.googleapis.com'],
         'font-src': ["'self'", 'https://fonts.gstatic.com', 'https://fonts.googleapis.com'],
         'img-src': ["'self'", 'data:', 'https:'],
@@ -76,7 +72,7 @@ export default defineNuxtConfig({
         'form-action': ["'self'"],
       },
     },
-    rateLimiter: false,
+    rateLimiter: { tokensPerInterval: 30, interval: 60000 },
     xssValidator: process.env.NODE_ENV !== "development",
   },
 
@@ -93,4 +89,5 @@ export default defineNuxtConfig({
       include: ['@vue/devtools-core', '@vue/devtools-kit', 'pinia'],
     },
   },
+  nitro: { prerender: { failOnError: false } },
 })

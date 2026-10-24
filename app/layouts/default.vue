@@ -2,7 +2,7 @@
   <div :class="rootClass">
     <!-- Skip to main content — accessibility -->
     <a href="#main-content" class="skip-to-content">
-      {{ $t('a11y.skipToContent') }}
+      {{ t('a11y.skipToContent') }}
     </a>
 
     <OHeader />
@@ -16,6 +16,7 @@
 </template>
 
 <script setup lang="ts">
+const { t } = useI18n()
 import { computed, onMounted } from 'vue'
 import { useDarkModeStore } from '~/stores/darkMode'
 
