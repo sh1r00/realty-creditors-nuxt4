@@ -75,8 +75,6 @@ function scrollToApply() {
       </div>
     </section>
 
-    <MMarquee />
-
     <!-- Features Section -->
     <section
       id="about"
